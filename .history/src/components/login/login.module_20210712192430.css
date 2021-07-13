@@ -1,0 +1,17 @@
+@value makerBlack from '../../common/colors.css';
+
+.wrap {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: makerBlack;
+}
+
+.loginPopup {
+  margin: 150px auto;
+  width: 400px;
+  height: 350px;
+  background-color: gray;
+}

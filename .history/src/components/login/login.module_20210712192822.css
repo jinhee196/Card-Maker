@@ -1,0 +1,30 @@
+@value makerGrey from '../../common/colors.css';
+@value makerWhite from '../../common/colors.css';
+
+.wrap {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: makerGrey;
+}
+
+.loginPopup {
+  margin: 150px auto;
+  width: 400px;
+  height: 350px;
+  background-color: makerWhite;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header img {
+  width: 20%;
+}
+.header h1 {
+  padding: 0;
+}

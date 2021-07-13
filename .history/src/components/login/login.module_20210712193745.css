@@ -1,0 +1,50 @@
+@value makerGrey from '../../common/colors.css';
+@value makerWhite from '../../common/colors.css';
+@value makerGreen from '../../common/colors.css';
+
+.wrap {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: makerGrey;
+}
+
+.loginPopup {
+  margin: 150px auto;
+  width: 400px;
+  height: 300px;
+  background-color: makerWhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: makerGreen;
+  padding: 0.2em;
+}
+.header img {
+  width: 10%;
+}
+.header h1 {
+  margin: 0;
+  font-size: 1.6rem;
+  color: makerWhite;
+}
+
+.loginBox {
+  text-align: center;
+}
+
+.footer {
+  background-color: makerGreen;
+}
+.copyright {
+  color: makerWhite;
+  text-align: center;
+}
